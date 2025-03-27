@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Sincronizado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comparação: Polling vs WebSockets</h1>
+        <div class="card">
+            <h2>HTTP Polling</h2>
+            <p><strong>Horário:</strong> <span id="polling-time">Carregando...</span></p>
+            <p><strong>Latência:</strong> <span id="polling-latency">--</span></p>
+        </div>
+        <div class="card">
+            <h2>WebSockets</h2>
+            <p><strong>Horário:</strong> <span id="ws-time">Carregando...</span></p>
+            <p><strong>Latência:</strong> <span id="ws-latency">--</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
